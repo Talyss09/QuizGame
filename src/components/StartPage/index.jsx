@@ -1,12 +1,10 @@
 import { QuizContext } from "../../context/quiz"
-import { Input } from "../Button";
-import { Button, Container, Content, Header, Message } from "./styled"
+import { Input } from "../Input";
+import { Container, Content, Header, Message } from "./styled"
 import { useContext } from 'react'
 export const StartPage = () => {
   const QuizState = useContext(QuizContext);
   const [quizState, setQuizState] = useContext(QuizContext);
-
-  console.log(QuizState)
   return (
     <Container>
       <Header>Coding Quiz Challenge</Header>

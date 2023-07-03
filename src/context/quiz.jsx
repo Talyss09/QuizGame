@@ -5,11 +5,13 @@ const Stages = ['start', 'playing', 'end']
 const initialState = {
   game: Stages[0],
   Questions,
-  currentQuestion: [0]
+  currentQuestion: [0],
+  score: 0
 }
 
+
 const quizReducer = (state, action) => {
-  console.log(state, action)
+
   switch(action.type) { 
     case "ChangeState":
       return {
@@ -31,7 +33,6 @@ const quizReducer = (state, action) => {
       if(!Questions[NextQuestion]) {
         endGame = true
       }
-      console.log(endGame)
       return {
         ...state,
         currentQuestion: NextQuestion,
@@ -46,6 +47,7 @@ const quizReducer = (state, action) => {
 export const QuizContext= createContext();
 
 export const QuizProvider = ({children}) => {
+  
   const value = useReducer(quizReducer, initialState)
   return (
     <QuizContext.Provider value={value}>
