@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+Quiz Game em React JS com Styled Components O Quiz-Game em React JS com Styled Components é um projeto de aplicação web interativa que permite aos usuários testarem seus conhecimentos por meio de perguntas e respostas em um formato de jogo. Este projeto é desenvolvido em React JS, uma biblioteca JavaScript amplamente utilizada para criar interfaces de usuário dinâmicas, e utiliza Styled Components para estilização dos componentes.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Funcionalidades
 
-## Available Scripts
+Perguntas e respostas: O jogo apresenta um conjunto de perguntas com opções de resposta para o usuário selecionar.
+Contagem de pontuação: Os usuários acumulam pontos ao responder corretamente às perguntas.
+Interface responsiva: A aplicação é projetada para se adaptar a diferentes tamanhos de tela, incluindo dispositivos móveis.
+Pré-requisitos Antes de executar o projeto, é necessário ter os seguintes requisitos:
 
-In the project directory, you can run:
+Node.js (versão 12 ou superior)
+npm (gerenciador de pacotes do Node.js)
+Instalação Faça o clone deste repositório para o seu ambiente local. Navegue até o diretório raiz do projeto no terminal. Execute o seguinte comando para instalar as dependências do projeto: npm install
 
-### `npm start`
+Executando o projeto Após a conclusão da instalação, execute o seguinte comando para iniciar a aplicação:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+npm start Isso iniciará a aplicação em modo de desenvolvimento. Abra o navegador e acesse http://localhost:3000 para visualizá-la.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Personalização O projeto pode ser personalizado e expandido de acordo com as necessidades. É possível adicionar mais perguntas e respostas, modificar o estilo dos componentes utilizando Styled Components e implementar novas funcionalidades.
 
-### `npm test`
+Contribuição Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas (issues) ou enviar pull requests para melhorar o projeto.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Licença Este projeto está licenciado sob a Licença MIT.
